@@ -15,6 +15,10 @@ body{
 #container-fluid { 
   width: 100%;
   height: 100%;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  padding-right: 0px;
+/*   background-color: antiquewhite; */
  }
 .grayLine{
   background-color: gray;
@@ -38,9 +42,9 @@ body{
  /*  padding-left: 40px; */
 }
  .heyDiv{
-  margin-left: 50%;
- /*  background-color: blueviolet; */
-  width: 35%;
+  margin-left: 35%;
+  /* background-color: blueviolet; */
+  width: 40%;
   height: 60%;
   float: right;
   position: absolute;
@@ -50,14 +54,15 @@ body{
 
  .hey{
   color: #4c4d57;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: bold;
   font-family: 'Lora', serif;
 }
 .explain{
   color: #5d5e69;
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Lora', serif;
+  letter-spacing: 0.1em;
 }
 .logo{
   float: right;
@@ -66,6 +71,25 @@ body{
   height: 35px;
   margin: 5px;
 }
- 
+.logoDiv{
+  margin-top: 535px;
+ }
+.span{
+  text-align: right !important;
+  font-size: 13px;
+  color: #5d5e69;
+  font-family: 'Lora', serif;
+  padding-top: 5px;
+  margin-right: 2px !important;
+  padding-right: 6px !important;
+}
+.contact{
+  width: 100%;
+  text-align: right !important;
+  float: right;
+  margin-right: 0%;
+  padding-right: 0%;
+  background-color: #5d5e69
+}
 
 
